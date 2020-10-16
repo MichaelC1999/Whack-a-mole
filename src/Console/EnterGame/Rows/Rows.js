@@ -18,9 +18,7 @@ class Rows extends Component{
         while(random===this.state.holeNum){
             random = Math.floor(Math.random() * Math.floor(5));
         }
-        console.log("Spot changed ", this.state.holeNum, random)
         this.setState({holeNum: random})
-        
     }
 
     render() {

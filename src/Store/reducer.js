@@ -9,13 +9,11 @@ const initialState = {
 const reducer = (state = initialState, action)=> {
     switch(action.type){
         case actionTypes.ADD_SCORE:
-            console.log(state.score)
             return {
                 ...state,
                 score: state.score+1
             }
         case actionTypes.ADD_NAME:
-            console.log(state.name, action.name)
             return {
                 ...state,
                 name: action.name

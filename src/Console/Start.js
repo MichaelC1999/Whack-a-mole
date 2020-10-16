@@ -16,7 +16,6 @@ class Start extends Component {
         let playLink =null
         if(this.props.currentName){
             playLink = <Link to={"/play/"}><button style={{margin: '20px'}}>PLAY</button></Link>
-            console.log(playLink)
         }
         return (
             <div className="Start">
