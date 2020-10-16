@@ -1,0 +1,32 @@
+.Bar{
+    background-color: lightseagreen;
+    list-style: none;
+    
+}
+
+.Item {
+    color:white;
+}
+
+.Bar>ul{
+    padding-left: 0;
+}
+
+.Bar>ul>li{
+    display: inline;
+    max-width: 100px;
+    margin: 10px;
+    font-size: 20px;
+    border: 2px white solid;
+    padding: 2px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+nav {
+    border: 2px black solid;
+    text-align: center;
+}

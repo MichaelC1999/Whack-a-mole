@@ -1,0 +1,14 @@
+.Start{
+    top: 500px;
+    background-color: rgba(112, 175, 11, 0.822);
+    height: 100%;
+    color: white;
+}
+
+input {
+    display: inline-block;
+    color: white;
+    background-color: lightseagreen;
+
+}
+

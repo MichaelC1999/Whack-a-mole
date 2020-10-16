@@ -1,0 +1,39 @@
+.Game{
+    height: 100%;
+    background:url("../../Assets/Images/grass.jpg") top left/cover no-repeat;
+}
+
+.Play-Space {
+    padding-top: 20%;
+}
+
+.Health {
+    background-color: red;
+    height: 100%;
+    width: 100%;
+}
+
+.Status {
+    display: flex;
+    flex-direction: row;
+    background-color: lightseagreen;
+}
+
+.Items {
+    flex: 1;
+    color: black;
+    margin-bottom: 40px;
+
+}
+
+
+
+@media screen and (min-width: 1000px){
+    .Play-Space {
+        padding-top: 11%;
+    }
+
+    .Items {
+        margin-bottom: 0;
+    }
+}

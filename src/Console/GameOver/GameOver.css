@@ -1,0 +1,27 @@
+.End{
+    height: 100%;
+    background-color: rgba(112, 175, 11, 0.822);
+    color: white;
+}
+
+h1{
+    font-size: 24px;
+    padding-top: 15px;
+
+}
+
+button{
+    height: 32px;
+    background-color: lightseagreen;
+    color: white;
+    margin: 0;
+    border: 2px white solid;
+}
+
+@media screen and (min-width: 600px){
+    h1{
+        font-size: 35px;
+        
+    }
+}
+

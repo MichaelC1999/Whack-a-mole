@@ -1,0 +1,25 @@
+.Mole{
+    width: 34px;
+    align-content: center;
+    margin: auto;
+    height: 26px;
+    position: relative;
+    bottom: 18px;
+    background-image: url('../../../../../Assets/Images/mole2.svg');
+
+}
+
+
+
+@media screen and (min-width: 1200px){
+    .Mole{
+        width: 55px;
+        align-content: center;
+        margin: auto;
+        height: 40px;
+        position: relative;
+        bottom: 28px;
+        background-image: url('../../../../../Assets/Images/mole2.svg');
+    
+    }
+}

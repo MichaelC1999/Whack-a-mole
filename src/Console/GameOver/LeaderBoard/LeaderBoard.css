@@ -1,0 +1,17 @@
+
+.Entry {
+    font-size: 13px;
+}
+
+@media (min-height: 600px) and (max-height: 830px) {
+    .Entry {
+        font-size: 18px;
+    }
+}
+
+@media (min-height: 830px) {
+    .Entry {
+        font-size: 22px;
+    }
+}
+

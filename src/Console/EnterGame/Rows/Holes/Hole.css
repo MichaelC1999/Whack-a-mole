@@ -1,0 +1,16 @@
+.Hole{
+    width: 5px;
+    margin: 13px;
+    border-radius: 25%;
+    height: 10px;
+    flex: 1;
+    background-color: rgb(99, 59, 22);
+    align-content: center;
+    vertical-align: top;
+}
+
+@media (min-width: 700px){
+    .Hole{
+        margin-bottom: 20px;
+    }
+}

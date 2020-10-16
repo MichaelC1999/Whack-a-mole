@@ -1,0 +1,24 @@
+.Console{
+    background-color: white;
+    width: 90%;
+    height: 70vh;
+    margin: 5%;
+    text-align: center;
+    align-items: center;
+}
+
+@media (min-width: 500px) and (max-width: 1300px){
+    .Console{
+        height: 75vh;
+        width: 90%;
+        margin: 5% 5% 5% 5%;
+    }
+}
+
+@media (min-width:1300px){
+    .Console{
+        height: 75vh;
+        width: 50%;
+        margin: 5% 25% 5% 25%;
+    }
+}
