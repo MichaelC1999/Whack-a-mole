@@ -8,7 +8,7 @@ class Nav extends Component{
             <nav className="Bar">
                 <ul>
                     <li><Link to="/new-game" className="Item">Start game</Link></li>
-                    <li><a href="https://github.com/MichaelC1999/Whack-a-mole-game">Project</a></li>
+                    <li><a href="https://github.com/MichaelC1999/Whack-a-mole">Project</a></li>
                 </ul>
             </nav>
         )
