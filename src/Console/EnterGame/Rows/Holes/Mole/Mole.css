@@ -3,10 +3,17 @@
     align-content: center;
     margin: auto;
     height: 26px;
-    position: relative;
-    bottom: 18px;
+    /* position: relative;
+    bottom: 18px; */
     background-image: url('../../../../../Assets/Images/mole2.svg');
 
+}
+
+.spotCovered {
+    height: 35px;
+    width: 100%;
+    position: relative;
+    bottom: 18px;
 }
 
 
@@ -17,9 +24,15 @@
         align-content: center;
         margin: auto;
         height: 40px;
-        position: relative;
-        bottom: 28px;
+        /* position: relative;
+        bottom: 28px; */
         background-image: url('../../../../../Assets/Images/mole2.svg');
     
+    }
+
+    .spotCovered {
+        height: 50px;
+        position: relative;
+        bottom: 28px;
     }
 }

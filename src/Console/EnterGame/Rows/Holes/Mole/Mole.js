@@ -9,9 +9,12 @@ class Mole extends Component{
 
     render(){
         return(
-            <div className="Mole" onClick={this.props.clicked}>
+            <div className="spotCovered" onClick={this.props.clicked}>
+                <div className="Mole">
 
+                </div>
             </div>
+            
         )
     }
 }
